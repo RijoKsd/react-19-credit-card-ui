@@ -202,7 +202,6 @@ export default App;`;
   return (
     <div
       style={{
-        width: "100%",
         minHeight: "100vh",
         background: "#f5f5f5",
         padding: "20px",
