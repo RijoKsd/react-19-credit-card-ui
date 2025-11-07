@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-
- import Cards from "react-19-credit-card";
- import "react-19-credit-card/dist/es/index.css";
+import { useState } from "react";
+import Cards from "react-19-credit-card";
+import "react-19-credit-card/dist/es/index.css";
 
 function App() {
   const [savedCards, setSavedCards] = useState([]);
@@ -365,7 +364,7 @@ export default App;`;
                     display: "block",
                     fontSize: "14px",
                     fontWeight: "500",
-                     color: "#333",
+                    color: "#333",
                   }}
                 >
                   Card Number
@@ -410,7 +409,7 @@ export default App;`;
                     display: "block",
                     fontSize: "14px",
                     fontWeight: "500",
-                     color: "#333",
+                    color: "#333",
                   }}
                 >
                   Cardholder Name
@@ -451,7 +450,7 @@ export default App;`;
                       display: "block",
                       fontSize: "14px",
                       fontWeight: "500",
-                       color: "#333",
+                      color: "#333",
                     }}
                   >
                     Expiry Date
@@ -486,7 +485,7 @@ export default App;`;
                       display: "block",
                       fontSize: "14px",
                       fontWeight: "500",
-                       color: "#333",
+                      color: "#333",
                     }}
                   >
                     CVC
